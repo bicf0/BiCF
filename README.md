@@ -5,7 +5,9 @@ There are severl demo videos including dataset videos and internet videos. These
 https://user-images.githubusercontent.com/123786657/215298805-366f03a6-a9ad-4567-a9ba-ffdf35ee3468.mp4
 
 ## Demo 1(internet) on BiCF(ours)
-https://user-images.githubusercontent.com/123786657/215298788-de4d245e-66a9-4696-b408-b64745603ce2.mp4
+https://user-images.githubusercontent.com/123786657/215299929-780d6aa0-2098-41d4-8e57-88d9e2481a03.mp4
+
+
 ---
 
 
