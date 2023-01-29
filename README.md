@@ -16,9 +16,10 @@ https://user-images.githubusercontent.com/123786657/215299929-780d6aa0-2098-41d4
 
 
 ## Demo 3(internet) on TCMR
+[![tcmr_demo3](https://res.cloudinary.com/marcomontalbano/image/upload/v1674967074/video_to_markdown/images/youtube--STIAZJrf0DI-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/STIAZJrf0DI "tcmr_demo3")
 
 ## Demo 3(internet) on BiCF(ours)
-
+[![bicf_demo3](https://res.cloudinary.com/marcomontalbano/image/upload/v1674967172/video_to_markdown/images/youtube--h1UYm6S32mw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/h1UYm6S32mw "bicf_demo3")
 
 ## Demo 4(internet) on TCMR
 [![tcmr_demo4](https://res.cloudinary.com/marcomontalbano/image/upload/v1674959932/video_to_markdown/images/youtube--_e-y-63WSQU-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/_e-y-63WSQU "tcmr_demo4")
