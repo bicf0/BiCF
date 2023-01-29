@@ -8,10 +8,10 @@ https://user-images.githubusercontent.com/123786657/215298805-366f03a6-a9ad-4567
 https://user-images.githubusercontent.com/123786657/215299929-780d6aa0-2098-41d4-8e57-88d9e2481a03.mp4
 
 ## Demo 2(internet) on TCMR
-https://user-images.githubusercontent.com/123786657/215300282-6894399c-c729-4942-8a75-9964d2b871c4.mp4
+[![tcmr_demo2](https://res.cloudinary.com/marcomontalbano/image/upload/v1674958644/video_to_markdown/images/youtube--Ba1dGLU_Rw8-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/Ba1dGLU_Rw8 "tcmr_demo2")
 
 ## Demo 2(internet) on BiCF(ours)
-https://user-images.githubusercontent.com/123786657/215300511-37b4e217-3d57-49d8-9790-56447012f3e3.mp4
+
 
 
 
