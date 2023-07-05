@@ -3,6 +3,9 @@ Here are several video demos that come from Human Mesh Reconstruction datasets a
 
 [1] Beyond static features for temporally consistent 3d human pose and shape from a video, cvpr 2021
 
+## New Demo on Internet(top->ours, mid->mpsnet, bottom->tcmr)
+https://github.com/bicf0/bicf_demo/assets/123786657/02546c2b-bd87-4493-8824-38e50d2b6fcb
+
 ## Demo 1(internet) on TCMR
 https://user-images.githubusercontent.com/123786657/215298805-366f03a6-a9ad-4567-a9ba-ffdf35ee3468.mp4
 
@@ -32,6 +35,7 @@ https://user-images.githubusercontent.com/123786657/215299929-780d6aa0-2098-41d4
 
 ## Demo 5(3dpw) on TCMR
 https://user-images.githubusercontent.com/123786657/215299381-f452cb51-730a-4334-9559-e2f6e9f47981.mp4
+
 
 ## Demo 5(3dpw) on BiCF(ours)
 https://user-images.githubusercontent.com/123786657/215299402-6c71d018-d867-401c-8940-ded65b6ccdc9.mp4
