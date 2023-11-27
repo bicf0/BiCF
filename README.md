@@ -6,7 +6,7 @@
 ## Training
 + You can use the below command to train our code.
 ```python
-  python train.py --cfg ./config/{config_name}.yamlpython train.py --cfg ./config/{config_name}.yaml
+  python train.py --cfg ./config/{config_name}.yaml
 ```
 
 ---
