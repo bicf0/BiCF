@@ -1,0 +1,10 @@
+# pretrained model and dataset path
+CONFIG_DATA = 'data/config_data'
+CONFIG_DATA_PRETRAINED = 'data/config_data/smpl_regressor_pretrained'
+TRAIN_TEST_DATA = 'data/train_test_data'
+MPII3D_DIR = 'data/train_test_data/mpi_inf_3dhp'
+THREEDPW_DIR = 'data/train_test_data/3dpw'
+H36M_DIR = 'data/train_test_data/h36m'
+INSTA_DIR = 'data/train_test_data/insta'
+PENNACTION_DIR = 'data/train_test_data/pennaction'
+POSETRACK_DIR = 'data/train_test_data/posetrack'
