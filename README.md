@@ -51,8 +51,16 @@ https://user-images.githubusercontent.com/123786657/215299381-f452cb51-730a-4334
 ## Demo 5(3dpw) on BiCF(ours)
 https://user-images.githubusercontent.com/123786657/215299402-6c71d018-d867-401c-8940-ded65b6ccdc9.mp4
 
+---
 
+# Licence
++ This project is licensed under the terms of the MIT license.
 
+---
+
+# Related Works
+[TCMR](https://github.com/hongsukchoi/TCMR_RELEASE)
+[VIBE](https://github.com/mkocabas/VIBE)
 
 
 
