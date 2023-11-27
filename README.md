@@ -5,15 +5,13 @@
 
 ## Training
 + You can use the below command to train our code.
-  '''python
-  python train.py --cfg ./config/{config_name}.yaml
-  '''python
+```python
+  python train.py --cfg ./config/{config_name}.yamlpython train.py --cfg ./config/{config_name}.yaml
+```
 
+---
 
-
-
-
-# Demo Videos For 'Clip Fusion with Bi-level Optimization for Human MeshReconstruction from Monocular Videos'
+# Some Demo Videos For 'Clip Fusion with Bi-level Optimization for Human MeshReconstruction from Monocular Videos'
 
 
 ## New Demo on Internet(top->ours, mid->mpsnet, bottom->tcmr)
