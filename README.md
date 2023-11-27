@@ -1,3 +1,18 @@
+# Release Code for 'Clip Fusion with Bi-level Optimization for Human MeshReconstruction from Monocular Videos' that Was Accepted by ACM MM(2023).
+
+## Data Download
++ Please refer to this [repo](https://github.com/hongsukchoi/TCMR_RELEASE) to download the HMR datasets.
+
+## Training
++ You can use the below command to train our code.
+  '''python
+  python train.py --cfg ./config/{config_name}.yaml
+  '''python
+
+
+
+
+
 # Demo Videos For 'Clip Fusion with Bi-level Optimization for Human MeshReconstruction from Monocular Videos'
 
 
