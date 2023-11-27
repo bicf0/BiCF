@@ -1,0 +1,56 @@
+EXP_NAME: 'bicf_new'
+LOGDIR: '/data/wupeng/myProject/BiCF/BiCF/logs'
+DEVICE: 'cuda:0'
+OUTPUT: '/data/wupeng/myProject/BiCF/BiCF/exp_out/mpii'
+
+DEBUG: False
+NUM_WORKERS: 8
+DEBUG_FREQ: 1000
+SEED_VALUE: -1
+
+CUDNN:
+  BENCHMARK: True
+  DETERMINISTIC: False
+  ENABLED: True
+
+TRAIN:
+  USE_2D: False
+  DATASETS_2D: []
+  DATASETS_3D: ['h36m', 'mpi_inf_3dhp', '3dpw']
+  DATASET_EVAL: ['mpi_inf_3dhp']
+  DATASET_WEIGHTS: [0.3, 0.5, 0.2]
+  OVERLAP: False
+  CLIP: 16
+  CLIP_SPIT_RATE: 1
+  BATCH_SIZE: 64
+  EPOCHS: 60
+  PRETRAINED_REGRESSOR: '/data/wupeng/myProject/BiCF/BiCF/data/config_data/smpl_regressor_pretrained'
+  NUM_ITERS_PER_EPOCH: 500
+  LR_PATIENCE: 5
+  LR_RATIO: 10
+  GEN_OPTIM: 'Adam'
+  GEN_LR: 1e-4
+  GEN_WD: 1e-4
+  GEN_MOMENTUM: 0.9
+
+LOSS:
+  NORMALIZE: False
+  POSE_LOSS_WEIGHTS: [60.0, 300.0, 60.0, 60.0, 0.0, 0.0]
+
+MODEL:
+  CLIP_ENCODER:
+    DIM: 2048
+    DEPTH: 4
+    HEADS: 8
+    DIM_HEAD: 256
+    MLP_DIM: 512
+    DROPOUT: 0.
+
+#  TEMPORAL_ENCODER:
+#    DIM: 128
+#    DEPTH: 1
+#    HEADS: 8
+#    DIM_HEAD: 256
+#    MLP_DIM: 512
+#    DROPOUT: 0.
+

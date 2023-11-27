@@ -1,0 +1,64 @@
+EXP_NAME: 'bicf_new'
+LOGDIR: '/data/wupeng/myProject/BiCF/BiCF/logs'
+DEVICE: 'cuda:6'
+OUTPUT: '/data/wupeng/myProject/BiCF/BiCF/exp_out/ablation/3dpw_rnn'
+
+DEBUG: False
+NUM_WORKERS: 8
+DEBUG_FREQ: 1000
+SEED_VALUE: 1
+
+CUDNN:
+  BENCHMARK: True
+  DETERMINISTIC: False
+  ENABLED: True
+
+TRAIN:
+  DATASETS_3D: ['h36m', 'mpi_inf_3dhp', '3dpw']
+  DATASET_EVAL: ['3dpw']
+  DATASET_WEIGHTS: [0.2, 0.3, 0.5]
+  OVERLAP: False
+  CLIP: 16
+  BATCH_SIZE: 64
+  EPOCHS: 30
+  NUM_ITERS_PER_EPOCH: 500
+  LR_PATIENCE: 5
+  LR_RATIO: 10
+  GEN_OPTIM: 'Adam'
+  GEN_LR: 1e-4
+  GEN_WD: 1e-4
+  GEN_MOMENTUM: 0.9
+  PRETRAINED: ''
+#  '/data/wupeng/myProject/BiCF/BiCF/exp_out/ablation/batch_size128/model_best.pth.tar'
+# /data/wupeng/myProject/BiCF/BiCF/exp_out/clip_length/model_best/model_best.pth.tar
+#/data/wupeng/myProject/BiCF/BiCF/exp_out/bilevel_3dpw/model_best/bilevel_3dpw3.pth.tar
+
+LOSS:
+  NORMALIZE: False
+  POSE_LOSS_WEIGHTS: [60.0, 300.0, 60.0, 60.0, 60.0]
+
+MODEL:
+  CLIP_ENCODER:
+    DIM: 2048
+    DEPTH: 4
+    HEADS: 8
+    DIM_HEAD: 256
+    MLP_DIM: 512
+    DROPOUT: 0.
+
+  CROSS_ENCODER:
+    DIM: 2048
+    DEPTH: 4
+    HEADS: 8
+    DIM_HEAD: 256
+    MLP_DIM: 512
+    DROPOUT: 0.
+
+#  TEMPORAL_ENCODER:
+#    DIM: 128
+#    DEPTH: 1
+#    HEADS: 8
+#    DIM_HEAD: 256
+#    MLP_DIM: 512
+#    DROPOUT: 0.
+
